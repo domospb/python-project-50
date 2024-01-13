@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hexlet-code"
+version = "1.0"
+description = "config compare util"
+authors = ["Domo_spb"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+gendiff = "gendiff.scripts.gendiff:main"
